@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Load style sheets -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/question.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <script src="js/util.js"></script>
+    <script src="js/data/posts.js"></script>
+    <script src="js/question.js"></script>
+    <title>ParentChain</title>
+</head>
+<body >
+    <div id="container">
+        <div id="navbar">
+            <ul>
+                <li>
+                    <a class="nav-text" href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-text" href="prof.html">
+                        Profile
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="side_bar grouping">
+            <div id="new">
+                <button class="button" id="new-post"><span><i class="far fa-file"></i></span> Post</button>
+                <input type="text" placeholder="Search..." id="search">
+            </div>
+            <div id="results">
+                <div id="results-header">
+                    <h1 class="heading">Results</h1>
+                </div>
+                <div id="results-content">
+                </div>
+            </div>
+        </div>
+        <div id="page_center">
+            <div class="grouping" id="question" hidden>
+                <div id="question-buttons">
+                    <a class="question-button bookmark" id="question-bookmark" title="Bookmark"><i class="far fa-bookmark" id="bookmark-icon"></i></a>
+                    <a class="question-button" id="question-reply" title="Reply"><i class="fas fa-reply"></i></a>
+                    <a class="question-button" id="question-report" title="Report"><i class="far fa-times-circle"></i></a>
+                </div>
+                <h1 id="question-header">
+                </h1>
+                <div id="question-content">
+                </div>
+                <div id="tags">
+                </div>
+                <div id="question-submit">
+                    Submitted by
+                    <a class="profile" href="dogtor.html">
+                        <i class="fas fa-user-circle">
+                            <div class="profile-name" id="question-user">
+                            </div>
+                        </i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grouping" id="answers" hidden>
+                <div id="answers-list">
+                    <h1>No comments</h1>
+                </div>
+                <div id="post">
+                    <h3 id="post-title">Write your own answer</h3>
+                    <textarea id="post-textbox"></textarea>
+                    <button class="button post-button" id="post-submit">Post</button>
+                    <button class="button post-button" id="post-cancel">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Load style sheets -->
+    <link rel="stylesheet" href="css/question.css">
+    <link rel="stylesheet" href="css/post.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <script src="js/util.js"></script>
+    <script src="js/data/posts.js"></script>
+    <script src="js/question.js"></script>
+    <title>ParentChain</title>
+</head>
+<body>
+    <div id="container2">
+        <div id="navbar">
+            <ul>
+                <li>
+                    <a class="nav-text" href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-text" href="prof.html">
+                        Profile
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="grouping" id="post-form">
+            <h1>New Post</h1>
+            <form>
+                <div>
+                    <h3 class="title">Title</h3>
+                    <input class="post-text" type="text" placeholder="Title..." required>
+                </div>
+                <div>
+                    <h3 class="title">Description</h3>
+                    <textarea class="post-text" placeholder="Description..." required></textarea>
+                </div>
+                <div>
+                    <h3 class="title">Tags</h3>
+                    <input class="post-text" type="text" placeholder="Tags..." required>
+                </div>
+                <input id="post-me" class="submit button" value="Post My Question!">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+:root{
+    --color-button: #a5a5a5;
+    --color-main: #72a9ff;
+    --color-light: #F3F3F0;
+    --accent-light: #7990BD;
+}
+
+#navbar {
+    text-decoration: none;
+    text-align: left;
+}
+
+.nav-right {
+    display: inline-block;
+    text-align: right;
+}
+
+.nav-text {
+    font-size: 3em;
+    color: var(--color-light);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+h1.home {
+    color: var(--color-light);
+    display: inline-block;
+    font-size: 3em;
+    margin: var(--spacing);
+    text-decoration: none;
+    width: 60%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}

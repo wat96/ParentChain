@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+ParentChain Home Page
+-->
+<html lang = 'en'>
+
+<head>
+    <meta charset="utf-8">
+    <title>ParentChain</title>
+
+    <!-- Use mobile-aware viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Load style sheets -->
+    <link rel="stylesheet" href="css/homePage.css">
+
+    <!-- Constructible EventTarget polyfill — Only Chrome 64+ supports constructible EventTarget objects natively -->
+    <script src="https://unpkg.com/event-target@latest/min.js"></script>
+
+    <script src="./js/util.js"></script>
+    <script src="./js/homePage.js"></script>
+
+</head>
+<body>
+
+<header>
+    <div id = 'title1'>ParentChain</div>
+    <div id = 'title2'> A Blockchain Technology Company</div>
+</header>
+
+
+<main class = main>
+    <div id = "greeting"> Welcome, Joanna</div>
+    <div id = "search">
+        <input id = "searchBar" placeholder = "How many calories should I feed my..."> </input>
+        <button id = "searchButton" type = 'button'> Search</button>
+    </div>
+    <div id = "newQuestion" onclick = searchClick()> or Ask your own question</div>
+
+</main>
+
+
+</body>
+</html>

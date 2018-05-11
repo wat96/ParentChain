@@ -1,0 +1,61 @@
+.follow {
+  color: white;
+  background-color: var(--color-dark);
+  margin-left: 380px;
+  font-weight: bold;
+}
+
+.follow:hover {
+  background-color: green;
+}
+
+
+.following {
+  color: lightgreen;
+  background-color: white;
+  border-color: lightgreen;
+  margin-left: 380px;
+  font-weight: bold;
+}
+
+.new-form-grouping {
+  padding-bottom: 0px;
+}
+
+.dog_pic {
+  width: 400px;
+  padding-top: 40px;
+}
+
+.row {
+  white-space: nowrap;
+}
+
+.dog_name {
+  position: absolute;
+  left: 780px;
+  top: 170px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.rectangle {
+  padding: 20px;
+  background-color: lightgreen;
+  position: absolute;
+  left: 770px;
+  top: 250px;
+  border-radius: 0px 30px 0px 30px;
+}
+
+.dogtor_cert {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.bio {
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}

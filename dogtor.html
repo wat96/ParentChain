@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Load style sheets -->
+    <link rel="stylesheet" href="css/question.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <script src="js/util.js"></script>
+    <script src="js/data/posts.js"></script>
+    <!-- <script src="js/question.js"></script> -->
+    <script src="js/profile.js"></script>
+    <title>ParentChain</title>
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li>
+                <a class="nav-text" href="index.html">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a class="nav-text" href="prof.html">
+                    Profile
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="side_bar grouping">
+        <div id="new">
+            <input type="text" placeholder="Search..." id="search">
+        </div>
+        <div id="results">
+            <div id="results-header">
+                <h1 class="heading">Answers</h1>
+            </div>
+            <div id="results-content">
+                <div class="result" id="r0" onclick="change(0)">
+                    <h3 class="result-header">How to raise sea people?</h3>
+                    <div class="result-content">Look at me, livin' free. Free and clean amongst the Sea People. We look for pirates and search for gold.
+                        Life is an adventure with the Sea People. They don't ever complain, they don't call me fat. They don't make me do homework or nothin' like that.
+                        This is the way life was meant to be. Laughin' and singing, Sea people and me. Sea people and me, you guys.
+                    </div>
+                </div>
+                <div class="result" id="r1" onclick="change(1)">
+                    <h3 class="result-header">Who killed Kanye West?</h3>
+                    <div class="result-content">Look at me, livin' free. Free and clean amongst the Sea People. We look for pirates and search for gold.
+                        Life is an adventure with the Sea People. They don't ever complain, they don't call me fat. They don't make me do homework or nothin' like that.
+                        This is the way life was meant to be. Laughin' and singing, Sea people and me. Sea people and me, you guys.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="results">
+            <div id="results-header">
+                <h1 class="heading">Questions</h1>
+            </div>
+            <div id="results-content">
+                <div class="result" id="r0" onclick="change(0)">
+                    <h3 class="result-header">How to raise sea people?</h3>
+                    <div class="result-content">Look at me, livin' free. Free and clean amongst the Sea People. We look for pirates and search for gold.
+                        Life is an adventure with the Sea People. They don't ever complain, they don't call me fat. They don't make me do homework or nothin' like that.
+                        This is the way life was meant to be. Laughin' and singing, Sea people and me. Sea people and me, you guys.
+                    </div>
+                </div>
+                <div class="result" id="r1" onclick="change(1)">
+                    <h3 class="result-header">Who killed Kanye West?</h3>
+                    <div class="result-content">Look at me, livin' free. Free and clean amongst the Sea People. We look for pirates and search for gold.
+                        Life is an adventure with the Sea People. They don't ever complain, they don't call me fat. They don't make me do homework or nothin' like that.
+                        This is the way life was meant to be. Laughin' and singing, Sea people and me. Sea people and me, you guys.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page_center" hidden>
+        <form class="grouping" id="new-post-form">
+            <h1 class="new-form-grouping">Dogtor</h1>
+            <button class="follow" id="follow_button" onClick="follow_click(); return false;">Follow</button>
+            <div class="row">
+              <img src="dogtor.jpg" alt="dog" class="dog_pic">
+              <text class="dog_name">Dr. Doggo</text>
+              <rect class="rectangle">
+                <text class="dogtor_cert">Certified Dogtor</text>
+              </rect>
+            </div>
+            <div class="bio">Don't let my species fool you, I am here to answer your questions seriously and to the best of my ability.
+              I know how hard it is to raise a child... done that, been there. No messing around here.
+              I also have an M.D. Ph.D. from the prestigious Canine Mellon Medical School.
+            </div>
+        </form>
+    </div>
+</body>
+</html>
